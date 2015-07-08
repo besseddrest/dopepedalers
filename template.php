@@ -26,7 +26,7 @@ $breadcrumb[] = drupal_get_title();
 
 /**
  * Override or insert variables into the page template.
- */
+ 
 function dpbc_nexus_preprocess_page(&$vars) {
   if (isset($vars['main_menu'])) {
     $vars['main_menu'] = theme('links__system_main_menu', array(
@@ -61,7 +61,7 @@ function dpbc_nexus_preprocess_page(&$vars) {
     $vars['secondary_menu'] = FALSE;
   }
 }
-
+*/
 /**
  * Duplicate of theme_menu_local_tasks() but adds clearfix to tabs.
  */
