@@ -1,2 +1,2 @@
 # dopepedalers
-Themes for dopepedalers.com
+Theme for dopepedalers.com. Sub-theme of Nexus theme.
