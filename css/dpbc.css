@@ -12,6 +12,12 @@ h1#site-title {
   display:inline-block;
 }
 
+/* FRONT */
+.front #block-system-main {
+  margin-bottom:30px;
+  padding-bottom:30px;
+}
+
 /* BLOG */
 .blog-item {
   overflow:hidden;
