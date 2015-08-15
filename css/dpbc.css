@@ -11,3 +11,30 @@
 h1#site-title {
   display:inline-block;
 }
+
+/* BLOG */
+.blog-item {
+  overflow:hidden;
+  border-bottom: 1px solid #ddd;
+  margin-bottom:30px;
+  padding-bottom:30px;
+}
+
+h5.blog-title {
+  font-size:20px;
+}
+
+.blog-post-info {
+  margin-bottom:5px; 
+}
+
+.blog-image {
+  float:left;
+  width:37%;
+}
+
+.blog-teaser {
+  float:left;
+  width:63%;
+  padding-top:10px;
+}
