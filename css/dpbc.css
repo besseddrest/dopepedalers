@@ -83,11 +83,11 @@ h5.blog-title {
 ================================================== */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .blog-image {
-    width:46%;
+    width:32%;
   }
 
   .blog-teaser {
     padding-left: 3%;
-    width:51%;
+    width:67%;
   }
 }
