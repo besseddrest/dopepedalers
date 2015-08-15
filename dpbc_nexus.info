@@ -5,6 +5,7 @@ base theme = nexus
 engine = phptemplate
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/dpbc.css
 stylesheets[all][] = style.css
 scripts[] = js/bootstrap.min.js
 scripts[] = js/superfish.js

@@ -1,0 +1,13 @@
+.site-branding {
+  margin-bottom:0;
+}
+
+#site-logo {
+  float:none;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+h1#site-title {
+  display:inline-block;
+}

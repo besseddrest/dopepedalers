@@ -72,7 +72,9 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
         <h1 id="site-title">
+          <!--
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+        -->
         </h1>
       </div>
       <div class="col-sm-6 mainmenu">
@@ -107,8 +109,10 @@
         <img src="<?php print base_path() . drupal_get_path('theme', 'dpbc_nexus') . '/images/slide-image-1.png'; ?>"/>
         <?php if($slide1_head || $slide1_desc) : ?>
           <div class="flex-caption">
+            <!--
             <h2><?php print $slide1_head; ?></h2><?php print $slide1_desc; ?>
             <a class="frmore" href="<?php print url($slide1_url); ?>"> <?php print t('READ MORE'); ?> </a>
+          -->
           </div>
         <?php endif; ?>
       </li>
@@ -116,8 +120,10 @@
         <img src="<?php print base_path() . drupal_get_path('theme', 'dpbc_nexus') . '/images/slide-image-2.png'; ?>"/>
         <?php if($slide2_head || $slide2_desc) : ?>
           <div class="flex-caption">
+            <!--
             <h2><?php print $slide2_head; ?></h2><?php print $slide2_desc; ?>
             <a class="frmore" href="<?php print url($slide2_url); ?>"> <?php print t('READ MORE'); ?> </a>
+          -->
           </div>
         <?php endif; ?>
       </li>
@@ -125,8 +131,10 @@
         <img src="<?php print base_path() . drupal_get_path('theme', 'dpbc_nexus') . '/images/slide-image-3.png'; ?>"/>
         <?php if($slide3_head || $slide3_desc) : ?>
           <div class="flex-caption">
+            <!--
             <h2><?php print $slide3_head; ?></h2><?php print $slide3_desc; ?>
             <a class="frmore" href="<?php print url($slide3_url); ?>"> <?php print t('READ MORE'); ?> </a>
+            -->
           </div>
         <?php endif; ?>
       </li>
