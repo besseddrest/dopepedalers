@@ -13,6 +13,15 @@ h1#site-title {
   display:inline-block;
 }
 
+.links {
+  list-style:none;
+}
+
+.links li {
+  margin:0;
+  padding:0;
+}
+
 /* FRONT */
 .front #block-system-main {
   overflow:hidden;
