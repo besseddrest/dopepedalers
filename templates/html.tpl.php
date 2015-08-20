@@ -6,6 +6,7 @@
 <?php print $styles; ?>
 <?php print $scripts; ?>
 <!--[if lt IE 9]><script src="<?php print base_path() . drupal_get_path('theme', 'nexus') . '/js/html5.js'; ?>"></script><![endif]-->
+<meta name="google-site-verification" content="dnA9m9YeHIMQSGOgPixwCDCAhWKrP5199-c8Ys7eki4" />
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php print $page_top; ?>
