@@ -39,7 +39,7 @@ h1#site-title {
 
 #custom-menu li a {
   display:inline-block;
-  background: url('/dopepedalers/sites/all/themes/dpbc_nexus/images/sprite.png') no-repeat 0 0;
+  background: url('/sites/all/themes/dpbc_nexus/images/sprite.png') no-repeat 0 0;
   height:67px;
   width:115px;
   text-indent: -100px;
