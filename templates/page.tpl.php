@@ -80,15 +80,13 @@
       <div class="col-sm-6 mainmenu">
         <div class="mobilenavi"></div>
         <nav id="navigation" role="navigation">
-          <div id="main-menu">
-            <?php 
-              if (module_exists('i18n_menu')) {
-                $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
-              } else {
-                $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
-              }
-              print drupal_render($main_menu_tree);
-            ?>
+          <div id="custom-menu">
+            <ul>
+              <li id="nav-dope" class="first"><a href="http://dpbcsfo.bigcartel.com/" target="_blank">Dope</a></li>
+              <li id="nav-pedalers"><a href="/riders">Pedalers</a></li>
+              <li id="nav-bicycle"><a href="/forum">Bicycle</a></li>
+              <li id="nav-club" class="last"><a href="/club" target="_blank">Club</a></li>
+            </ul>
           </div>
         </nav>
       </div>

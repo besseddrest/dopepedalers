@@ -23,6 +23,63 @@ h1#site-title {
   padding:0;
 }
 
+/* CUSTOM MENU */
+#navigation {
+  margin-top:35px;
+}
+
+#custom-menu {
+
+}
+
+#custom-menu li {
+  display:inline-block;
+  list-style:none;
+}
+
+#custom-menu li a {
+  display:inline-block;
+  background: url('/dopepedalers/sites/all/themes/dpbc_nexus/images/sprite.png') no-repeat 0 0;
+  height:67px;
+  width:115px;
+  text-indent: -100px;
+  overflow:hidden;
+}
+
+#custom-menu li#nav-pedalers a {
+  background-position: -115px 0;
+  width:142px;
+}
+
+#custom-menu li#nav-pedalers a:hover {
+  background-position: -115px -67px;
+}
+
+#custom-menu li#nav-bicycle a {
+  background-position: -256px 0;
+  width:128px;
+}
+
+#custom-menu li#nav-bicycle a:hover {
+  background-position: -256px -67px;
+}
+
+#custom-menu li#nav-club a {
+  background-position: -380px 0;
+  width:130px;
+}
+
+#custom-menu li#nav-club a:hover {
+  background-position: -380px -67px;
+}
+
+#custom-menu li#nav-dope a:hover {
+  background-position: 0 -67px;
+}
+
+
+
+
 /* FRONT */
 .front #block-system-main {
   overflow:hidden;
