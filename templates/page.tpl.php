@@ -85,7 +85,7 @@
               <li id="nav-dope" class="first"><a href="http://dpbcsfo.bigcartel.com/" target="_blank">Dope</a></li>
               <li id="nav-pedalers"><a href="/riders">Pedalers</a></li>
               <li id="nav-bicycle"><a href="/forum">Bicycle</a></li>
-              <li id="nav-club" class="last"><a href="/club" target="_blank">Club</a></li>
+              <li id="nav-club" class="last"><a href="/club">Club</a></li>
             </ul>
           </div>
         </nav>
