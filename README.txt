@@ -1,4 +1,4 @@
-About Nexus
+About Nexus!
 ====================
 Nexus is a Drupal 7 theme. The theme is not dependent on any 
 core theme. Its very light weight for fast loading with modern look.
